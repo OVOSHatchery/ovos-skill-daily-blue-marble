@@ -1,0 +1,23 @@
+{
+  "name": "Earth from space Skill",
+  "skillname": "skill-nasa-epic",
+  "authorname": "JarbasSkills",
+  "foldername": "",
+  "url": "https://github.com/JarbasSkills/skill-nasa-epic",
+  "branch": "master",
+  "desktopFile": false,
+  "warning": "",
+  "systemDeps": false,
+  "platforms": [
+    "arm",
+    "arm64",
+    "i386",
+    "x86_64",
+    "ia64"
+  ],
+  "examples": [
+    "open the epic website from nasa",
+    "show me earth from space",
+    "tell me about Earth Polychromatic Imaging Camera"
+  ]
+}
