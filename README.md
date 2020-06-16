@@ -1,5 +1,6 @@
 # <img src='./icon.png' width='50' height='50' style='vertical-align:bottom'/> Earth Polychromatic Imaging Camera
 
+![](./logo.png)
 
 ## About
 
