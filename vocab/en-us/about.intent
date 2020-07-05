@@ -1,8 +1,5 @@
-tell me about EPIC
-what is EPIC
-talk about EPIC
-tell me about Earth Polychromatic Imaging Camera
-what is Earth Polychromatic Imaging Camera
-talk about Earth Polychromatic Imaging Camera
+tell me about (DSCOVR|EPIC|Earth Polychromatic Imaging Camera|discover|discovery)
+what is (DSCOVR|EPIC|Earth Polychromatic Imaging Camera|discover|discovery)
+(talk|tell me) about (DSCOVR|EPIC|Earth Polychromatic Imaging Camera|discover|discovery)
 Earth Polychromatic Imaging Camera
-about Earth Polychromatic Imaging Camera
+about (DSCOVR|EPIC|Earth Polychromatic Imaging Camera|discover|discovery)

@@ -1,9 +1,9 @@
 {
-  "name": "Earth from space Skill",
-  "skillname": "skill-nasa-epic",
+  "name": " Daily Blue Marble Skill",
+  "skillname": "skill-blue-marble",
   "authorname": "JarbasSkills",
   "foldername": "",
-  "url": "https://github.com/JarbasSkills/skill-nasa-epic",
+  "url": "https://github.com/JarbasSkills/skill-blue-marble",
   "branch": "master",
   "desktopFile": false,
   "warning": "",
@@ -18,6 +18,9 @@
   "examples": [
     "open the epic website from nasa",
     "show me earth from space",
+    "Daily Blue Marble",
+    "Blue Marble of the Day",
+    "Animate that",
     "tell me about Earth Polychromatic Imaging Camera"
   ]
 }

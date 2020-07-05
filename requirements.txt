@@ -1,1 +1,3 @@
 requests
+pillow
+requests_cache

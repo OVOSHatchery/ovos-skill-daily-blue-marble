@@ -1,4 +1,4 @@
-# <img src='./icon.png' width='50' height='50' style='vertical-align:bottom'/> Earth Polychromatic Imaging Camera
+# <img src='./icon.png' width='50' height='50' style='vertical-align:bottom'/> Daily Blue Marble
 
 ![](./logo.png)
 
@@ -8,21 +8,29 @@
   
 Can be used as idle screen for mark2
  
-![](screenie.png)
-
+![](gui.gif)
+![](gui.png)
 ![](website.png)
 
 ## Examples
 * "show me earth from space"
+* "Daily Blue Marble"
+* "Blue Marble of the Day"
+* "Animate that"
 * "tell me about Earth Polychromatic Imaging Camera"
 * "open the epic website from nasa"
+* "what is the location of DSCOVR spacecraft"
+
+## Known Issues
+
+- "what is the location of DSCOVR spacecraft" conflicts with countries skill
 
 ## Credits
 - JarbasAi
 - [NASA](https://apod.nasa.gov/apod/astropix.html)
 
 ## Category
-**Entertainment**
+**Information**
 
 ## Tags
 - nasa

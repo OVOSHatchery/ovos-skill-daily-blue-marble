@@ -1,8 +1,8 @@
 [Desktop Entry]
 Terminal=false
 Type=Application
-Name=EarthFromSpace
-Exec=mycroft-gui-app --hideTextInput --skill=skill-nasa-epic.jarbasskills.home
+Name= Daily Blue Marble
+Exec=mycroft-gui-app --hideTextInput --skill=skill-blue-marble.jarbasskills.home
 Icon=icon.png
 Categories=VoiceApp
 StartupNotify=false
