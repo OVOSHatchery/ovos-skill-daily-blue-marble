@@ -13,6 +13,7 @@ import tempfile
 from os.path import join, exists
 from PIL import Image
 from io import BytesIO
+from mycroft.util import create_daemon
 
 
 class DailyBlueMarbleSkill(MycroftSkill):
@@ -22,7 +23,7 @@ class DailyBlueMarbleSkill(MycroftSkill):
                                      expire_after=timedelta(hours=3))
         self.add_event('skill-blue-marble.jarbasskills.home',
                        self.handle_homescreen)
-        self.update_picture() # cache for speedup
+        create_daemon(self.update_picture) # cache for speedup
 
     # homescreen
     def handle_homescreen(self, message):
@@ -45,7 +46,6 @@ class DailyBlueMarbleSkill(MycroftSkill):
         if not exists(path):
             images = []
             for url in urls:
-                print(url)
                 response = self.session.get(url)
                 img = Image.open(BytesIO(response.content))
                 images.append(img)
@@ -60,7 +60,6 @@ class DailyBlueMarbleSkill(MycroftSkill):
             url = "https://epic.gsfc.nasa.gov/api/natural"
 
             self.settings["raw_data"] = self.session.get(url).json()
-            print(self.settings["raw_data"])
 
         except Exception as e:
             self.log.exception(e)
